@@ -1,11 +1,11 @@
-create table AddressBook
+create table Contacts
 (
-firstName varchar(25),
-lastName varchar(25),
-address varchar(200),
-city varchar(25),
-state varchar(25),
-zip int,
-phoneNumber bigint,
-email varchar(100)
+FirstName varchar(50) NOT NULL,
+LastName varchar(50) NOT NULL,
+Address varchar(50) NOT NULL,
+City varchar(50) NOT NULL,
+State varchar(50) NOT NULL,
+Zip varchar(50) NOT NULL,
+Phone varchar(50) NOT NULL,
+Email varchar (50) NOT NULL
 );
