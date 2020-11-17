@@ -1,0 +1,10 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [firstName]
+      ,[lastName]
+      ,[address]
+      ,[city]
+      ,[state]
+      ,[zip]
+      ,[phoneNumber]
+      ,[email]
+  FROM [AddressBookDB].[dbo].[AddressBook]
